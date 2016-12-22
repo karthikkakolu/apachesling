@@ -1,0 +1,13 @@
+.name{
+  float: right;
+  padding-right: 15px;
+}
+
+.color{
+  color: blue;
+}
+
+.verticalLine {
+   margin-right: 2px solid lightgrey;
+    height: 500px;
+}

@@ -1,0 +1,39 @@
+
+
+<html>
+  <head>
+    <title>Welcome to JCP Experience Tool!</title>
+   
+  </head>
+
+  <body class="login">
+
+    <div class="container">
+        <h1 class="bg-primary">Welcome to JCP Experience Tool</h1>
+       
+    </div>
+   
+    <div class="container">
+
+      <form class="form-signin" method="POST" action="/j_security_check" enctype="multipart/form-data" accept-charset="UTF-8">
+        <input type="hidden" name="_charset_" value="UTF-8" />
+        <input type="hidden" name="sling.auth.redirect" value="/content/page/home.html">
+        <p class="form-signin-heading bg-primary">Welcome to JCP Experience Tool</p>
+        <label for="j_username" class="sr-only" accesskey="u">Username</label>
+        <input type="text" id="j_username" class="form-control" placeholder="Username" required autofocus>
+        <label for="j_password" class="sr-only" accesskey="p">Password</label>
+        <input type="password" id="j_password" class="form-control" placeholder="Password" required>
+        <p>
+        <button class="btn btn-lg btn-success btn-block" type="submit">Go</button>
+        </p>
+        <p>
+        <button class="btn btn-primary btn-block form-button-new" type="button">New Account</button>
+        <button class="btn btn-info btn-block form-button-help" type="button">Help Me</button>
+        </p>
+      </form>
+
+    </div>
+       
+</body>
+    
+</html>
