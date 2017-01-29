@@ -49,7 +49,7 @@
                      </button>
                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                         <li><a href="#" data-value="action">Home Page</a></li>
-                        <li><a href="#" data-value="another action">Gallery Page</a></li>
+                        <li><a href="#" data-value="another action">Listing Page</a></li>
                         <li><a href="#" data-value="something else here">Signup Page</a></li>
                      </ul>
                   </div>
@@ -80,7 +80,7 @@
       </div>
    </div>
    
-   <input type="hidden" value="http://lenldtwebpr1p01.jcpenney.com/dotcom/images/" id='ImagePath' class='h_v'>
+   <input type="hidden" value="http://<<hostname>>/<<path to images folder>>/" id='ImagePath' class='h_v'>
 </body>
 
 
